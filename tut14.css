@@ -1,0 +1,17 @@
+
+/* elemnent selector */
+p{
+    border: 2px solid red;
+}
+/* id selector */
+#firstpara{
+color:rgb(210, 30, 30);
+}
+/* class selector */
+.bgblue{
+background-color: cyan;
+}
+/* grouping selector */
+footer, span{
+background-color: orange;;
+}
