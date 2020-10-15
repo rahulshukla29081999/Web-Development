@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,100,0,0.5)),url(background.jpg);
+    height: 100vh;
+    background-size:  cover;
+    background-position: center;
+}
+.nav-bar{
+    background: rgb(90, 78, 192);
+height: 90px;}
+
+.logo{
+    margin:10px 50px ;
+    height: 60px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 30px;
+
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-align: none;
+    color:rgb(255, 250, 250);
+    padding: 15px 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    border: 1px;
+}
+.menu li a:hover{
+    background: rgb(126, 131, 131);
+    color: teal;
+    transition: .4s;
+    color: rgb(20, 216, 216);
+
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: aqua;
+    top: 160px;
+}
+.welcome h1{
+    font-size: 50px;
+    margin: 25px;
+
+}
+.btn{
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding:7px;
+    text-decoration: aquamarine;
+    border: 1px cadetblue;
+}
+.btn1{
+    background-color: darkorange;
+    color: indianred;
+}
+.btn1:hover{
+    background-color: whitesmoke;
+    color: turquoise;
+    transition: .4s;
+}
+.btn2{
+    background-color: lavender;
+    color: maroon;
+}
+.btn2:hover{
+    background-color: whitesmoke;
+    color: turquoise;
+    transition: .4s;}
+
+.btn3{
+   background-color: powderblue;
+    color: olivedrab;
+}
+.btn3:hover{
+    background-color: whitesmoke;
+    color: turquoise;
+    transition: .4s;
